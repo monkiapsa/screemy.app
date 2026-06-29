@@ -1,0 +1,13 @@
+# Build output
+build/
+ScreeMy.app
+*.dmg
+
+# Xcode
+xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+DerivedData/
+
+# macOS
+.DS_Store

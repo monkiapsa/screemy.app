@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		263D261D5FCBB7ADDBF9DE8A /* LicenseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603681E399F4CF8C387BE03F /* LicenseManager.swift */; };
+		29EDF1F93569108EED88DAC1 /* ScreeMy.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0FDEE3C1C6676927CDFD3EE0 /* ScreeMy.icns */; };
+		3CE946824833CBB773781DAA /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C511342D8DD4E6EBBF155EE /* Models.swift */; };
+		477F7F5CC5DC33081408B639 /* LaserPointer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C1632D2C9AC702B4DAE0B6 /* LaserPointer.swift */; };
+		57D49869FADEB913633E6C7E /* DeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEC6C49A31DF355A9D1D629 /* DeviceManager.swift */; };
+		58E88A0A5F4D675EEDA7B18D /* ScreenRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA6ACC3EA09DDD1FD52B853 /* ScreenRecorder.swift */; };
+		707960909034DA2136E49662 /* ExceptionBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 01682935DACBE63974B2293B /* ExceptionBridge.m */; };
+		97DF6D23039C8351FDB098D3 /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BAEA037A49B93F1E2E3045 /* BubbleView.swift */; };
+		B754B1839A1D022C26740A0F /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86D168C51B918C0DF634786 /* DashboardView.swift */; };
+		DE53F0690DE3C95232E76FD0 /* ScreeMyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69726927B40E9BA25D801E3C /* ScreeMyApp.swift */; };
+		E9E37D67AD4DD487DEFDE0F9 /* ClickManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBEE15CFBA948BDAF22985B /* ClickManager.swift */; };
+		F705C8F3A11093A81E5C5D44 /* LicenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8BC069E0B90132451FF2D0 /* LicenseView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01682935DACBE63974B2293B /* ExceptionBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExceptionBridge.m; sourceTree = "<group>"; };
+		0C511342D8DD4E6EBBF155EE /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		0FDEE3C1C6676927CDFD3EE0 /* ScreeMy.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ScreeMy.icns; sourceTree = "<group>"; };
+		1B45583C8BCB17DF4D8D7AAA /* ExceptionBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExceptionBridge.h; sourceTree = "<group>"; };
+		2F492ED079412DD8725C2CD5 /* ScreeMy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreeMy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FEC6C49A31DF355A9D1D629 /* DeviceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceManager.swift; sourceTree = "<group>"; };
+		4DA6ACC3EA09DDD1FD52B853 /* ScreenRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenRecorder.swift; sourceTree = "<group>"; };
+		5EBEE15CFBA948BDAF22985B /* ClickManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickManager.swift; sourceTree = "<group>"; };
+		603681E399F4CF8C387BE03F /* LicenseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseManager.swift; sourceTree = "<group>"; };
+		69726927B40E9BA25D801E3C /* ScreeMyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreeMyApp.swift; sourceTree = "<group>"; };
+		70BAEA037A49B93F1E2E3045 /* BubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleView.swift; sourceTree = "<group>"; };
+		7EF3F0E86223B5000E3AB5DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		80C1632D2C9AC702B4DAE0B6 /* LaserPointer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaserPointer.swift; sourceTree = "<group>"; };
+		9B8BC069E0B90132451FF2D0 /* LicenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseView.swift; sourceTree = "<group>"; };
+		9F0862EC78FEBDC3DE86A7C8 /* ScreeMy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScreeMy.entitlements; sourceTree = "<group>"; };
+		C86D168C51B918C0DF634786 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		DA27D19AA85B01738C64162F /* ScreeMy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScreeMy-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		07C4509EE5CC7EB2318E6FD4 = {
+			isa = PBXGroup;
+			children = (
+				72C6E8DB0D24C314A9BCE37B /* Sources */,
+				1EAA8B9BDDAB575E8418DD09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EAA8B9BDDAB575E8418DD09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F492ED079412DD8725C2CD5 /* ScreeMy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72C6E8DB0D24C314A9BCE37B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5EBEE15CFBA948BDAF22985B /* ClickManager.swift */,
+				2FEC6C49A31DF355A9D1D629 /* DeviceManager.swift */,
+				1B45583C8BCB17DF4D8D7AAA /* ExceptionBridge.h */,
+				01682935DACBE63974B2293B /* ExceptionBridge.m */,
+				7EF3F0E86223B5000E3AB5DF /* Info.plist */,
+				80C1632D2C9AC702B4DAE0B6 /* LaserPointer.swift */,
+				603681E399F4CF8C387BE03F /* LicenseManager.swift */,
+				0C511342D8DD4E6EBBF155EE /* Models.swift */,
+				DA27D19AA85B01738C64162F /* ScreeMy-Bridging-Header.h */,
+				9F0862EC78FEBDC3DE86A7C8 /* ScreeMy.entitlements */,
+				0FDEE3C1C6676927CDFD3EE0 /* ScreeMy.icns */,
+				69726927B40E9BA25D801E3C /* ScreeMyApp.swift */,
+				4DA6ACC3EA09DDD1FD52B853 /* ScreenRecorder.swift */,
+				73A8F99BA231F6D06B6FA39C /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		73A8F99BA231F6D06B6FA39C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				70BAEA037A49B93F1E2E3045 /* BubbleView.swift */,
+				C86D168C51B918C0DF634786 /* DashboardView.swift */,
+				9B8BC069E0B90132451FF2D0 /* LicenseView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA43D0C8DA241ED448B6455A /* ScreeMy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B92AF56097E583074512E45 /* Build configuration list for PBXNativeTarget "ScreeMy" */;
+			buildPhases = (
+				58BC310F3F487E7F5AB46453 /* Sources */,
+				AB214E3CB081DE7721331951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreeMy;
+			packageProductDependencies = (
+			);
+			productName = ScreeMy;
+			productReference = 2F492ED079412DD8725C2CD5 /* ScreeMy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		978A3EFAB86F35FC3B753B0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					BA43D0C8DA241ED448B6455A = {
+						DevelopmentTeam = 9799U2D9X4;
+					};
+				};
+			};
+			buildConfigurationList = 8C3486860333F772722306FE /* Build configuration list for PBXProject "ScreeMy" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 07C4509EE5CC7EB2318E6FD4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1EAA8B9BDDAB575E8418DD09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA43D0C8DA241ED448B6455A /* ScreeMy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB214E3CB081DE7721331951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29EDF1F93569108EED88DAC1 /* ScreeMy.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58BC310F3F487E7F5AB46453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97DF6D23039C8351FDB098D3 /* BubbleView.swift in Sources */,
+				E9E37D67AD4DD487DEFDE0F9 /* ClickManager.swift in Sources */,
+				B754B1839A1D022C26740A0F /* DashboardView.swift in Sources */,
+				57D49869FADEB913633E6C7E /* DeviceManager.swift in Sources */,
+				707960909034DA2136E49662 /* ExceptionBridge.m in Sources */,
+				477F7F5CC5DC33081408B639 /* LaserPointer.swift in Sources */,
+				263D261D5FCBB7ADDBF9DE8A /* LicenseManager.swift in Sources */,
+				F705C8F3A11093A81E5C5D44 /* LicenseView.swift in Sources */,
+				3CE946824833CBB773781DAA /* Models.swift in Sources */,
+				DE53F0690DE3C95232E76FD0 /* ScreeMyApp.swift in Sources */,
+				58E88A0A5F4D675EEDA7B18D /* ScreenRecorder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		692E30CC1C09D02AE924B862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_ENTITLEMENTS = Sources/ScreeMy.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9799U2D9X4;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = Sources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fi.screemy.app;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/ScreeMy-Bridging-Header.h";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5;
+			};
+			name = Release;
+		};
+		7A2057BD3188800E1480A7B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_ENTITLEMENTS = Sources/ScreeMy.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9799U2D9X4;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = Sources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fi.screemy.app;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/ScreeMy-Bridging-Header.h";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5;
+			};
+			name = Debug;
+		};
+		B0F9212C9598941B04ED3765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F6230EDCB1D1832D34D63578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B92AF56097E583074512E45 /* Build configuration list for PBXNativeTarget "ScreeMy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A2057BD3188800E1480A7B4 /* Debug */,
+				692E30CC1C09D02AE924B862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8C3486860333F772722306FE /* Build configuration list for PBXProject "ScreeMy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0F9212C9598941B04ED3765 /* Debug */,
+				F6230EDCB1D1832D34D63578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 978A3EFAB86F35FC3B753B0E /* Project object */;
+}

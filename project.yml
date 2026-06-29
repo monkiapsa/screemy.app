@@ -1,0 +1,38 @@
+name: ScreeMy
+options:
+  bundleIdPrefix: fi.screemy
+  deploymentTarget:
+    macOS: "14.0"
+  xcodeVersion: "15"
+
+targets:
+  ScreeMy:
+    type: application
+    platform: macOS
+    sources:
+      - Sources
+    info:
+      path: Sources/Info.plist
+      properties:
+        NSScreenCaptureUsageDescription: "ScreeMy tarvitsee näytön tallennusoikeuden."
+        NSCameraUsageDescription: "ScreeMy tarvitsee kameraoikeuden kameraupotusta varten."
+        NSMicrophoneUsageDescription: "ScreeMy tarvitsee mikrofonioikeuden äänen tallentamiseen."
+        LSApplicationCategoryType: public.app-category.video
+        NSPrincipalClass: NSApplication
+        CFBundleName: ScreeMy
+        CFBundleDisplayName: ScreeMy
+        CFBundleIconFile: ScreeMy
+        LSMinimumSystemVersion: "14.0"
+    entitlements:
+      path: Sources/ScreeMy.entitlements
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: fi.screemy.app
+      SWIFT_VERSION: "5"
+      SWIFT_STRICT_CONCURRENCY: minimal
+      MACOSX_DEPLOYMENT_TARGET: "14.0"
+      SWIFT_OBJC_BRIDGING_HEADER: Sources/ScreeMy-Bridging-Header.h
+      CODE_SIGN_IDENTITY: "-"
+      DEVELOPMENT_TEAM: "9799U2D9X4"
+      CODE_SIGNING_REQUIRED: "NO"
+      CODE_SIGNING_ALLOWED: "YES"
+      ENABLE_HARDENED_RUNTIME: "NO"
